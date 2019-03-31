@@ -16,7 +16,7 @@ footer: MIT Licensed | Copyright © 2019-present W3Fun·Leo
 pageClass: homeCon
 ---
 
-<div style="text-align: center" class="homeCon"s>
+<div style="text-align: center" class="homeCon">
 
   :camera: :smile: :blush: :smirk: :wink: :kissing_heart: :open_mouth: :sob: :astonished: :triumph: :mask: :angry: :joy:
 
@@ -27,3 +27,4 @@ pageClass: homeCon
 </div>
 
 <!-- <Valine></Valine> -->
+<Share></Share>
