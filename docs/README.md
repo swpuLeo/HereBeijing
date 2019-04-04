@@ -2,7 +2,7 @@
 home: true
 heroImage: /icon/beijing-128.png
 heroText: Here Beijing
-tagline: Life in Beijing
+tagline: 印象·北京
 # actionText: 快速上手 →
 # actionLink: /zh/guide/
 # features:
@@ -13,11 +13,12 @@ tagline: Life in Beijing
 # - title: 高性能
 #   details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 footer: MIT Licensed | Copyright © 2019-present W3Fun·Leo
+pageClass: homeCon
 ---
 
-<div style="text-align: center">
+<div style="text-align: center" class="homeCon">
 
-  :camera: :smile: :blush: :relaxed: :smirk: :wink: :kissing_heart: :open_mouth: :sob: :astonished: :triumph: :mask: :angry: :joy:
+  :camera: :smile: :blush: :smirk: :wink: :kissing_heart: :open_mouth: :sob: :astonished: :triumph: :mask: :angry: :joy:
 
   ![Hello Beijing](./.vuepress/public/herebj.png)
 
@@ -25,3 +26,5 @@ footer: MIT Licensed | Copyright © 2019-present W3Fun·Leo
 
 </div>
 
+<!-- <Valine></Valine> -->
+<Share></Share>
