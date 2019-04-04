@@ -15,6 +15,10 @@ echo 'beijing.w3fun.com' > CNAME
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:swpuLeo/HereBeijing.git master:gh-pages
+
+git config --local user.name 'swpuLeo'
+git config --local user.email 'swpu.leo@gmail.com'
+
+git push -f https://${access_token}@github.com:swpuLeo/HereBeijing.git master:gh-pages
 
 cd -
